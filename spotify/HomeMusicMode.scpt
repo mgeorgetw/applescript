@@ -1,11 +1,11 @@
 (*
 This script outputs audio with Apple TV, launches and play song on Spotify, and sets volume to 65.
-Some things to notice: 
+Some things to notice:
 1. Need to show volume in menu bar
 2. You can choose prefered AirPlay device by changing the name below, default is "Apple TV".
 *)
 
--- Set Airplay device to your device name 
+-- Set Airplay device to your device name
 set apDevice to "Apple TV"
 
 -- Set audio output to Apple TV by clicking on volume setting in menu bar --
