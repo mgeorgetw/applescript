@@ -26,3 +26,9 @@ Some things to notice:
 1. Need to show volume in menu bar
 
 2. You can choose prefered AirPlay device by changing the device name in the script, default is "Apple TV".
+
+## Text Editing
+
+### BrowserToMarkdownLink
+
+This script returns the title and URL of the frontmost tab of the active browser, and sets the clipboard to a markdownified link.
