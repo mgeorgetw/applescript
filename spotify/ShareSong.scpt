@@ -38,7 +38,7 @@ function generateLink(trackID) {
         delay(0.1);
 	} while (safari.documents[0].url() == null);
 
-    var songLink = safari.documents[0].url();
+    var songLink = encodeURI(safari.documents[0].url());
 
     // Fill the template with music info and set to the clipboard
 	var template = `${myStr}
